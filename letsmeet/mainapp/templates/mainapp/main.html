@@ -6,9 +6,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>LET'S MEET</title>
+    <link rel="stylesheet" href="{% static 'mainapp/css/main.css' %}">
 </head>
 <body>
-    <h3 id = "label-username">Username</h3>
+    <h3 id = "label-username">USERNAME</h3>
     <div>
         <input id="username"><button id="btn-join">Join Room</button>
     </div>
@@ -23,7 +24,11 @@
             <div id="messages">
                 <ul id="message-list"></ul>
             </div>
+
+            <div><input id="msg"><button id="btn-send-msg">Send Message</button></div>
+            <button id="btn-share-screen">Share Screen</button>
         </div>
     </div>
+    <script type="text/javascript" src="{% static 'mainapp/js/main.js' %}"></script>
 </body>
 </html>

@@ -1,0 +1,13 @@
+.video-grid-container{
+    display: grid;
+    grid-template-columns: repeat(1, ifr);
+    background-color: black;
+}
+.main-grid-cointaier{
+    display: grid;
+    grid-template-columns: 60% 25%;
+}
+video{
+    border-radius: 25%;
+    background-color: black;
+}
